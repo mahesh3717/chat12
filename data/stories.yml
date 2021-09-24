@@ -1,0 +1,95 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: pythonvideos
+  steps:
+  - intent: pythonvideos
+  - action: utter_pythonvideos
+
+- story: beginerpythonvideos
+  steps:
+  - intent: beginerpythonvideos
+  - action: utter_beginerpythonvideos
+
+- story: intermediatepythonvideos
+  steps:
+  - intent: intermediatepythonvideos
+  - action: utter_intermediatepythonvideos
+
+
+
+
+
+
+- story: numpyvideos
+  steps:
+  - intent: numpyvideos
+  - action: utter_numpyvideos
+
+- story: pandasvideos
+  steps:
+  - intent: pandasvideos
+  - action: utter_pandasvideos
+
+- story: visualizationvideos
+  steps:
+  - intent: visualizationvideos
+  - action: utter_visualizationvideos
+
+- story: deeplearningvideos
+  steps:
+  - intent: deeplearningvideos
+  - action: utter_deeplearningvideos
+
+- story: backpropagationvideos
+  steps:
+  - intent: backpropagationvideos
+  - action: utter_backpropagationvideos
+
+- story: regulaizationvideos
+  steps:
+  - intent: regulaizationvideos
+  - action: utter_regulaizationvideos
+
+- story: iriscasestudyvideos
+  steps:
+  - intent: iriscasestudyvideos
+  - action: utter_iriscasestudyvideos
+
+- story: mnistcasestudyvideos
+  steps:
+  - intent: mnistcasestudyvideos
+  - action: utter_mnistcasestudyvideos
+
+- story: cnnvideos
+  steps:
+  - intent: cnnvideos
+  - action: utter_cnnvideos

@@ -1,0 +1,1358 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+#python videos
+- intent: pythonvideos/indroduction
+  examples: |
+    - open the python introduction
+    - i want back python introduction videos
+    - please open python introduction videos
+    - i want goto python introduction  videos
+    - back to difference between python2 python3 videos
+    - move to python introduction videos
+    - open the difference between python2 python3 videos
+    - take me to python introduction videos
+    - move to difference between python2 python3 videos
+- intent: pythonvideos/installing
+  examples: |
+    - open the python installing videos
+    - i want back python installing videos
+    - please open python installing videos
+    - i want goto python installing videos
+    - back to python installing videos
+    - move to python installing videos
+    - navigate to python installing videos
+    - take me to python installing videos
+    - lets goto python installing videos
+- intent: pythonvideos/comandline
+  examples: |
+    - open the python comandline videos
+    - i want back python installing videos
+    - please open python installing videos
+    - i want goto python installing videos
+    - back to python installing videos
+    - move to python installing videos
+    - navigate to python installing videos
+    - take me to python installing videos
+    - lets goto python installing videos
+- intent: pythonvideos/runningpythoncode
+  examples: |
+    - open the running python code videos
+    - i want back runningpythoncode videos
+    - please open running python code videos
+    - i want goto running python code videos
+    - back to running python code videos
+    - move to running python code videos
+    - navigate to running python code videos
+    - take me to running python code videos
+    - lets goto running python code videos
+- intent: pythonvideos/interactivenotebooksmcq
+  examples: |
+    - open the interactive notebooks mcq videos
+    - i want back interactive notebooks mcq videos
+    - please open interactive notebooks mcq videos
+    - i want goto interactive notebooks mcq videos
+    - back to interactive notebooks mcq videos
+    - move to interactive notebooks mcq videos
+    - navigate to interactive notebooks mcq videos
+    - take me to interactive notebooks mcq videos
+    - lets goto interactive notebooks mcq videos
+
+#beginer friends
+- intent: beginerpythonvideos/open
+  examples: |
+    - open the beginer friendly python videos
+    - i want back beginer friendly python videos
+    - please open beginer friendly python videos
+    - i want goto beginer friendly python videos
+    - back to beginer friendly python videos
+    - move to beginer friendly python videos
+    - navigate to beginer friendly python videos
+    - take me to beginer friendly python videos
+    - lets goto beginer friendly python videos
+- intent: beginerpythonvideos/basicarithmetic
+  examples: |
+    - open the basic arithmetic videos
+    - i want back basic arithmetic pyhon videos
+    - please open basic arithmetic pyhon videos
+    - i want goto basic arithmetic pyhon videos
+    - back to basic arithmetic pyhon videos
+    - move to basic arithmetic pyhon videos
+    - navigate to basic arithmetic pyhon videos
+    - take me to basic arithmetic pyhon videos
+    - lets goto basic arithmetic pyhon videos
+- intent: beginerpythonvideos/variable
+  examples: |
+    - open the variable videos
+    - i want back variable pyhon videos
+    - please open variable pyhon videos
+    - i want goto variable pyhon videos
+    - back to pyhon variable videos
+    - move to  pyhon variable videos
+    - navigate to pyhon variable videos
+    - take me to pyhon variable videos
+    - lets goto pyhon variable videos
+- intent: beginerpythonvideos/formatcodeinpython
+  examples: |
+    - open the format code in python videos
+    - i want back format code in python videos
+    - please open format code in python videos
+    - i want goto format code in python videos
+    - back to format code in python videos
+    - move to  format code in python videos
+    - navigate to format code in python videos
+    - take me to format code in python videos
+    - lets goto format code in python videos
+- intent: beginerpythonvideos/pythondatatypesmcq
+  examples: |
+    - open the python datatypes mcq videos
+    - i want back python datatypes mcq videos
+    - please open python datatypes mcq videos
+    - i want goto python datatypes mcq videos
+    - back to python datatypes mcq videos
+    - move to python datatypes mcq videos
+    - navigate to python datatypes mcq videos
+    - take me to python datatypes mcq videos
+    - lets goto python datatypes mcq videos
+- intent: beginerpythonvideos/mutableimutable
+  examples: |
+    - open the mutable imutable videos
+    - i want back mutable imutable videos
+    - please open mutable imutable videos
+    - i want goto mutable imutable videos
+    - back to mutable imutable videos
+    - move to mutable imutable videos
+    - navigate to mutable imutable videos
+    - take me to mutable imutable videos
+    - lets goto mutable imutable videos
+- intent: beginerpythonvideos/numbers
+  examples: |
+    - open the numbers in python videos
+    - i want back numbers in python videos
+    - please open numbers in python videos
+    - i want goto numbers in python videos
+    - back to numbers in python videos
+    - move to numbers in python videos
+    - navigate to numbers in python videos
+    - take me to numbers in python videos
+    - lets goto numbers in python videos
+- intent: beginerpythonvideos/stringsmcq
+  examples: |
+    - open the strings mcq in python videos
+    - i want back strings mcq in python videos
+    - please open strings mcq in python videos
+    - i want goto strings mcq in python videos
+    - back to strings mcq in python videos
+    - move to strings mcq in python videos
+    - navigate to strings mcq in python videos
+    - take me to strings mcq in python videos
+    - lets goto strings mcq in python videos
+- intent: beginerpythonvideos/lists
+  examples: |
+    - open the lists in python videos
+    - i want back list in python videos
+    - please open list in python videos
+    - i want goto list in python videos
+    - back to list in python videos
+    - move to list in python videos
+    - navigate to list in python videos
+    - take me to list in python videos
+    - lets goto list in python videos
+- intent: beginerpythonvideos/indexingandslicingmcq
+  examples: |
+    - open the indexing ands licing mcq in python videos
+    - i want back indexing and slicing mcq in python videos
+    - please open indexing and slicing mcq in python videos
+    - i want goto indexing and slicing mcq in python videos
+    - back to indexing and slicing mcq in python videos
+    - move to indexing and slicing mcq in python videos
+    - navigate to indexing and slicing mcq in python videos
+    - take me to indexing and slicing mcq in python videos
+    - lets goto indexing and slicing mcq in python videos
+- intent: beginerpythonvideos/StringPropertiesandMethods
+  examples: |
+    - open the String Properties and Methods in python videos
+    - i want back String Properties and Methods in python videos
+    - please open String Properties and Methods in python videos
+    - i want goto String Properties and Methods in python videos
+    - back to String Properties and Methods in python videos
+    - move to String Properties and Methods in python videos
+    - navigate to String Properties and Methods in python videos
+    - take me to String Properties and Methods in python videos
+    - lets goto String Properties and Methods in python videos
+- intent: beginerpythonvideos/userinput
+  examples: |
+    - open the user input in python videos
+    - i want back user input in python videos
+    - please open user input in python videos
+    - i want goto user input in python videos
+    - back to user input in python videos
+    - move to user input in python videos
+    - navigate to user input in python videos
+    - take me to user input in python videos
+    - lets goto user input in python videos
+- intent: beginerpythonvideos/printformatingmcq
+  examples: |
+    - open the print formating mcq in python videos
+    - i want back print formating mcq in python videos
+    - please open print formating mcq in python videos
+    - i want goto print formating mcq in python videos
+    - back to print formating mcq in python videos
+    - move to print formating mcq in python videos.
+    - navigate to print formating mcq in python videos
+    - take me to print formating mcq in python videos
+    - lets goto print formating mcq in python videos
+- intent: beginerpythonvideos/dictionaries
+  examples: |
+    - open the dictionaries in beginer python videos
+    - i want back dictionaries in beginer python videos
+    - please open dictionaries in beginer python videos
+    - i want goto dictionaries in beginer python videos
+    - back to dictionaries in beginer python videos
+    - move to dictionaries in beginer python videos
+    - navigate to dictionaries in beginer python videos
+    - take me to dictionaries in beginer python videos
+    - lets goto dictionaries in beginer python videos
+- intent: beginerpythonvideos/tuples
+  examples: |
+    - open the tuples in beginer python videos
+    - i want back tuples in beginer python videos
+    - please open tuples in beginer python videos
+    - i want goto tuples in beginer python videos
+    - back to tuples in beginer python videos
+    - move to tuples in beginer python videos
+    - navigate to tuples in beginer python videos
+    - take me to tuples in beginer python videos
+    - lets goto tuples in beginer python videos
+- intent: beginerpythonvideos/setsmcq
+  examples: |
+    - open the sets mcq in beginer python videos
+    - i want back sets mcq in beginer python videos
+    - please open sets mcq in beginer python videos
+    - i want goto sets mcq in beginer python videos
+    - back to sets mcq in beginer python videos
+    - move to sets mcq in beginer python videos
+    - navigate to sets mcq in beginer python videos
+    - take me to sets mcq in beginer python videos
+    - lets goto sets mcq in beginer python videos
+- intent: beginerpythonvideos/booleans
+  examples: |
+    - open the booleans in beginer python videos
+    - i want back booleans in beginer python videos
+    - please open booleans in beginer python videos
+    - i want goto booleans in beginer python videos
+    - back to booleans in beginer python videos
+    - move to booleans in beginer python videos
+    - navigate to booleans in beginer python videos
+    - take me to booleans in beginer python videos
+    - lets goto booleans in beginer python videos
+- intent: beginerpythonvideos/none
+  examples: |
+    - open the none in beginer python videos
+    - i want back none in beginer python videos
+    - please open none in beginer python videos
+    - i want goto none in beginer python videos
+    - back to none in beginer python videos
+    - move to none in beginer python videos
+    - navigate to none in beginer python videos
+    - take me to none in beginer python videos
+    - lets goto none in beginer python videos
+- intent: beginerpythonvideos/files
+  examples: |
+    - open the files in beginer python videos
+    - i want back files in beginer python videos
+    - please open files in beginer python videos
+    - i want goto files in beginer python videos
+    - back to files in beginer python videos
+    - move to files in beginer python videos
+    - navigate to files in beginer python videos
+    - take me to files in beginer python videos
+    - lets goto files in beginer python videos
+- intent: beginerpythonvideos/yourfirstpythonprogrammcq
+  examples: |
+    - open the your first python program mcq in beginer python videos
+    - i want back your first python program mcq in beginer python videos
+    - please open your first python program mcq in beginer python videos
+    - i want goto your first python program mcq in beginer python videos
+    - back to your first python program mcq in beginer python videos
+    - move to your first python program mcq in beginer python videos
+    - navigate to your first python program mcq in beginer python videos
+    - take me to your first python program mcq in beginer python videos
+    - lets goto your first python program mcq in beginer python videos
+- intent: beginerpythonvideos/assignments
+  examples: |
+    - open the  beginer friendly python assignments
+    - i want back beginer friendly python assignments
+    - please open beginer friendly python assignments
+    - i want goto beginer friendly python assignments
+    - back to beginer friendly python assignments
+    - move to beginer friendly python assignments
+    - navigate to beginer friendly python assignments
+    - take me to beginer friendly python assignments
+    - lets goto beginer friendly python assignments
+
+#intermediatepythonvideos
+- intent: intermediatepythonvideos/comparisonoperators
+  examples: |
+    - open the intermediate python videos
+    - i want back intermediate python videos
+    - please open intermediate python videos
+    - i want goto intermediate python videos
+    - back to intermediate python videos
+    - move to intermediate python videos
+    - navigate to intermediate python videos
+    - take me to intermediate python videos
+    - lets goto intermediate python videos
+    - open the comparison operators in intermediate python videos
+    - i want back comparison operators in intermediate python videos
+    - please open comparison operators in intermediate python videos
+    - i want goto comparison operators in intermediate python videos
+    - back to comparison operators in intermediate python videos
+    - move to comparison operators in intermediate python videos
+    - navigate to comparison operators in intermediate python videos
+    - take me to comparison operators in intermediate python videos
+    - lets goto comparison operators in intermediate python videos
+
+- intent: intermediatepythonvideos/comparisonshortcutsmcq
+  examples: |
+    - open the comparison shortcuts mcq in intermediate python videos
+    - i want back comparison shortcuts mcq in intermediate python videos
+    - please open comparison shortcuts mcq in intermediate python videos
+    - i want goto comparison shortcuts mcq in intermediate python videos
+    - back to comparison shortcuts mcq in intermediate python videos
+    - move to comparison shortcuts mcq in intermediate python videos
+    - navigate to comparison shortcuts mcq in intermediate python videos
+    - take me to comparison shortcuts mcq in intermediate python videos
+    - lets goto comparison shortcuts mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/multiplecomparisonoperators
+  examples: |
+    - open the multiple comparison operators in intermediate python videos
+    - i want back multiple comparison operators in intermediate python videos
+    - please open multiple comparison operators in intermediate python videos
+    - i want goto multiple comparison operators in intermediate python videos
+    - back to multiple comparison operators in intermediate python videos
+    - move to multiple comparison operators in intermediate python videos
+    - navigate to multiple comparison operators in intermediate python videos
+    - take me to multiple comparison operators in intermediate python videos
+    - lets goto multiple comparison operators in intermediate python videos
+
+- intent: intermediatepythonvideos/chainingoperatorstogethermcq
+  examples: |
+    - open the chaining operators together mcq in intermediate python videos
+    - i want back chaining operators together mcq in intermediate python videos
+    - please open chaining operators together mcq in intermediate python videos
+    - i want goto chaining operators together mcq in intermediate python videos
+    - back to chaining operators together mcq in intermediate python videos
+    - move to chaining operators together mcq in intermediate python videos
+    - navigate to chaining operators together mcq in intermediate python videos
+    - take me to chaining operators together mcq in intermediate python videos
+    - lets goto chaining operators together mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/introductiontoloops
+  examples: |
+    - open the introduction to loops in intermediate python videos
+    - i want back introduction to loops in intermediate python videos
+    - please open introduction to loops in intermediate python videos
+    - i want goto introduction to loops in intermediate python videos
+    - back to introduction to loops in intermediate python videos
+    - move to introduction to loops in intermediate python videos
+    - navigate to introduction to loops in intermediate python videos
+    - take me to introduction to loops in intermediate python videos
+    - lets goto introduction to loops in intermediate python videos
+
+- intent: intermediatepythonvideos/forloopsmcq
+  examples: |
+    - open the for loops mcq in intermediate python videos
+    - i want back for loops mcq in intermediate python videos
+    - please open for loops mcq in intermediate python videos
+    - i want goto for loops mcq in intermediate python videos
+    - back to for loops mcq in intermediate python videos
+    - move to for loops mcq in intermediate python videos
+    - navigate to for loops mcq in intermediate python videos
+    - take me to for loops mcq in intermediate python videos
+    - lets goto for loops mcq in intermediate python videos
+- intent: intermediatepythonvideos/loopingthroughdictionariesmcq
+  examples: |
+    - open the looping through dictionaries mcq in intermediate python videos
+    - i want back looping through dictionaries mcq in intermediate python videos
+    - please open flooping through dictionaries mcq in intermediate python videos
+    - i want goto looping through dictionaries mcq in intermediate python videos
+    - back to looping through dictionaries mcq in intermediate python videos
+    - move to looping through dictionaries mcq in intermediate python videos
+    - navigate to looping through dictionaries mcq in intermediate python videos
+    - take me to looping through dictionaries mcq in intermediate python videos
+    - lets goto looping through dictionaries mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/whileloopsmcq
+  examples: |
+    - open the while loops mcq in intermediate python videos
+    - i want back while loops mcq in intermediate python videos
+    - please open while loops mcq in intermediate python videos
+    - i want goto while loops mcq in intermediate python videos
+    - back to while loops mcq in intermediate python videos
+    - move to while loops mcq in intermediate python videos
+    - navigate to while loops mcq in intermediate python videos
+    - take me to while loops mcq in intermediate python videos
+    - lets goto while loops mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/breakandcontinuemcq
+  examples: |
+    - open the break and continue mcq in intermediate python videos
+    - i want back break and continue mcq in intermediate python videos
+    - please open break and continue mcq in intermediate python videos
+    - i want goto break and continue mcq in intermediate python videos
+    - back to break and continue mcq in intermediate python videos
+    - move to break and continue mcq in intermediate python videos
+    - navigate to break and continue mcq in intermediate python videos
+    - take me to break and continue mcq in intermediate python videos
+    - lets goto break and continue mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/typecastingmcq
+  examples: |
+    - open the type casting mcq in intermediate python videos
+    - i want back type casting mcq in intermediate python videos
+    - please open type casting mcq in intermediate python videos
+    - i want goto type casting mcq in intermediate python videos
+    - back to type casting mcq in intermediate python videos
+    - move to type casting mcq in intermediate python videos
+    - navigate to type casting mcq in intermediate python videos
+    - take me to type casting mcq in intermediate python videos
+    - lets goto type casting mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/helpfuloperatorsmcq
+  examples: |
+    - open the helpful operators mcq in intermediate python videos
+    - i want back helpful operators mcq in intermediate python videos
+    - please open helpful operators mcq in intermediate python videos
+    - i want goto helpful operators mcq in intermediate python videos
+    - back to helpful operators mcq in intermediate python videos
+    - move to helpful operators mcq in intermediate python videos
+    - navigate to helpful operators mcq in intermediate python videos
+    - take me to helpful operators mcq in intermediate python videos
+    - lets goto helpful operators mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/listcomprehensions
+  examples: |
+    - open the list comprehensions in intermediate python videos
+    - i want back list comprehensions in intermediate python videos
+    - please open list comprehensions in intermediate python videos
+    - i want goto list comprehensions in intermediate python videos
+    - back to list comprehensions in intermediate python videos
+    - move to list comprehensions in intermediate python videos
+    - navigate to list comprehensions in intermediate python videos
+    - take me to list comprehensions in intermediate python videos
+    - lets goto list comprehensions in intermediate python videos
+
+- intent: intermediatepythonvideos/dictionarycomprehensionsmcq
+  examples: |
+    - open the dictionary comprehensions mcq in intermediate python videos
+    - i want back dictionary comprehensions mcq in intermediate python videos
+    - please open dictionary comprehensions mcq in intermediate python videos
+    - i want goto dictionary comprehensions mcq in intermediate python videos
+    - back to dictionary comprehensions mcq in intermediate python videos
+    - move to dictionary comprehensions mcq in intermediate python videos
+    - navigate to dictionary comprehensions mcq in intermediate python videos
+    - take me to dictionary comprehensions mcq in intermediate python videos
+    - lets goto dictionary comprehensions mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/functions
+  examples: |
+    - open the functions in intermediate python videos
+    - i want back functions in intermediate python videos
+    - please open functions in intermediate python videos
+    - i want goto functions in intermediate python videos
+    - back to functions in intermediate python videos
+    - move to functions in intermediate python videos
+    - navigate to functions in intermediate python videos
+    - take me to functions in intermediate python videos
+    - lets goto functions in intermediate python videos
+
+- intent: intermediatepythonvideos/argsandkwargsmcq
+  examples: |
+    - open the args and kwargs mcq in intermediate python videos
+    - i want back args and kwargs mcq in intermediate python videos
+    - please open args and kwargs mcq in intermediate python videos
+    - i want goto args and kwargs mcq in intermediate python videos
+    - back to args and kwargs mcq in intermediate python videos
+    - move to args and kwargs mcq in intermediate python videos
+    - navigate to args and kwargs mcq in intermediate python videos
+    - take me to args and kwargs mcq in intermediate python videos
+    - lets goto args and kwargs mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/comments
+  examples: |
+    - open the comments in intermediate python videos
+    - i want back comments in intermediate python videos
+    - please open comments in intermediate python videos
+    - i want goto comments in intermediate python videos
+    - back to comments in intermediate python videos
+    - move to comments in intermediate python videos
+    - navigate to comments in intermediate python videos
+    - take me to comments in intermediate python videos
+    - lets goto comments in intermediate python videos
+
+- intent: intermediatepythonvideos/map
+  examples: |
+    - open the map in intermediate python videos
+    - i want back map in intermediate python videos
+    - please open map in intermediate python videos
+    - i want goto map in intermediate python videos
+    - back to map in intermediate python videos
+    - move to map in intermediate python videos
+    - navigate to map in intermediate python videos
+    - take me to map in intermediate python videos
+    - lets goto map in intermediate python videos
+
+- intent: intermediatepythonvideos/filter
+  examples: |
+    - open the filter method in intermediate python videos
+    - i want back filter method in intermediate python videos
+    - please open filter method in intermediate python videos
+    - i want goto filter method in intermediate python videos
+    - back to filter method in intermediate python videos
+    - move to filter method in intermediate python videos
+    - navigate to filter method in intermediate python videos
+    - take me to filter method in intermediate python videos
+    - lets goto filter method in intermediate python videos
+
+- intent: intermediatepythonvideos/lambdaexpression
+  examples: |
+    - open the lambda expression in intermediate python videos
+    - i want back lambda expression in intermediate python videos
+    - please open lambda expression in intermediate python videos
+    - i want goto lambda expression in intermediate python videos
+    - back to lambda expression in intermediate python videos
+    - move to lambda expression in intermediate python videos
+    - navigate to lambda expression in intermediate python videos
+    - take me to lambda expression in intermediate python videos
+    - lets goto lambda expression in intermediate python videos
+
+- intent: intermediatepythonvideos/scopemcq
+  examples: |
+    - open the scope mcq in intermediate python videos
+    - i want back scope mcq in intermediate python videos
+    - please open scope mcq in intermediate python videos
+    - i want goto scope mcq in intermediate python videos
+    - back to scope mcq in intermediate python videos
+    - move to scope mcq in intermediate python videos
+    - navigate to scope mcq in intermediate python videos
+    - take me to scope mcq in intermediate python videos
+    - lets goto scope mcq in intermediate python videos
+
+- intent: intermediatepythonvideos/assignments
+  examples: |
+    - open the assignments in intermediate python videos
+    - i want back assignments in intermediate python videos
+    - please open assignments in intermediate python videos
+    - i want goto assignments in intermediate python videos
+    - back to assignments in intermediate python videos
+    - move to assignments in intermediate python videos
+    - navigate to assignments in intermediate python videos
+    - take me to assignments in intermediate python videos
+    - lets goto assignments in intermediate python videos
+
+
+
+
+
+
+
+#numpyvideos
+- intent: numpyvideos/numpyindroductionmcq
+  examples: |
+    - open the numpy indroduction mcq videos
+    - i want back numpy introduction mcq videos
+    - please open numpy introduction mcq videos
+    - i want goto numpy introduction  mcq videos
+    - back to numpy introduction mcq videos
+    - move to numpy introduction mcq videos
+    - navigate to numpy introduction mcq videos
+    - take me to numpy introduction mcq videos
+    - lets goto numpy introduction mcq videos
+- intent: numpyvideos/creatingnumpyarrays
+  examples: |
+    - open the creating numpy arrays video
+    - i want back creating numpy arrays video
+    - please open creating numpy arrays video
+    - i want goto creating numpy arrays video
+    - back to creating numpy arrays video
+    - move to creating numpy arrays video
+    - navigate to creating numpy arrays video
+    - take me to creating numpy arrays video
+    - lets goto creating numpy arrays video
+- intent: numpyvideos/slicingarrayinnumpymcq
+  examples: |
+    - open the creating slicing array in numpy mcq video
+    - i want back slicing array in numpy mcq video
+    - please open slicing array in numpy mcq video
+    - i want goto slicing array in numpy mcq video
+    - back to slicing array in numpy mcq video
+    - move to slicing array in numpy mcq video
+    - navigate toslicing array in numpy mcq video
+    - take me to slicing array in numpy mcq video
+    - lets goto slicing array in numpy mcq video
+- intent: numpyvideos/operatorsinnumpymcq
+  examples: |
+    - open the  operators in numpy mcq video
+    - i want back operators in numpy mcq video
+    - please open operators in numpy mcq video
+    - i want goto operators in numpy mcq video
+    - back to operators in numpy mcq video
+    - move to operators in numpy mcq video
+    - navigate to operators in numpy mcq video
+    - take me to operators in numpy mcq video
+    - lets goto operators in numpy mcq video
+- intent: numpyvideos/arraymethodsinnumpymcq
+  examples: |
+    - open the  array methods in numpy mcq video
+    - i want back array methods in numpy mcq video
+    - please open array methods in numpy mcq video
+    - i want goto array methods in numpy mcq video
+    - back to array methods in numpy mcq video
+    - move to array methods in numpy mcq video
+    - navigate to array methods in numpy mcq video
+    - take me to array methods in numpy mcq video
+    - lets goto array methods in numpy mcq video
+- intent: numpyvideos/assignments
+  examples: |
+    - open the  numpy assignments
+    - i want back numpy assignments
+    - please open numpy assignments
+    - i want goto numpy assignments
+    - back to numpy assignments
+    - move to numpy assignments
+    - navigate to numpy assignments
+    - take me to numpy assignments
+    - lets goto numpy assignments
+#pandasvideos
+- intent: pandasvideos/pandasindroductionmcq
+  examples: |
+    - open the working with pandas mcq videos
+    - i want back working with pandas mcq videos
+    - please open working with pandas mcq videos
+    - i want goto working with pandas mcq videos
+    - back to working with pandas mcq videos
+    - move to working with pandas mcq videos
+    - navigate to working with pandas mcq videos
+    - take me to working with pandas mcq videos
+    - lets goto working with pandas mcq videos
+- intent: pandasvideos/pandasseriesanddateframes
+  examples: |
+    - open the pandas series and dateframes video
+    - i want back pandas series and dateframes video
+    - please open pandas series and dateframes video
+    - i want goto pandas series and dateframes video
+    - back to pandas series and dateframes video
+    - move to pandas series and dateframes video
+    - navigate to pandas series and dateframes video
+    - take me to pandas series and dateframes video
+    - lets goto pandas series and dateframes video
+- intent: pandasvideos/indexingandslicingindataframesmcq
+  examples: |
+    - open the indexing and slicing in dataframes mcq video
+    - i want back indexing and slicing in dataframes mcq video
+    - please open indexing and slicing in dataframes mcq video
+    - i want goto indexing and slicing in dataframes mcq video
+    - back to indexing and slicing in dataframes mcq video
+    - move to indexing and slicing in dataframes mcq video
+    - navigate to indexing and slicing in dataframes mcq video
+    - take me to indexing and slicing in dataframes mcq video
+    - lets goto indexing and slicing in dataframes mcq video
+- intent: pandasvideos/handlingmissingdatamcq
+  examples: |
+    - open the handling missing data in pandas mcq video
+    - i want back handling missing data in pandas mcq video
+    - please open handling missing data in pandas mcq video
+    - i want goto handling missing data in pandas mcq video
+    - back to handling missing data in pandas mcq video
+    - move to handling missing data in pandas mcq video
+    - navigate to handling missing data in pandas mcq video
+    - take me to handling missing data in pandas mcq video
+    - lets goto handling missing data in pandas mcq video
+- intent: pandasvideos/assignments
+  examples: |
+    - open the  pandas assignments
+    - i want back pandas assignments
+    - please open pandas assignments
+    - i want goto pandas assignments
+    - back to pandas assignments
+    - move to pandas assignments
+    - navigate to pandas assignments
+    - take me to pandas assignments
+    - lets goto pandas assignments
+#visuvalaization
+- intent: visualizationvideos/visualizationintroductionmcq
+  examples: |
+
+    - open the data visualization introduction using matplotlib mcq video
+    - i want back data visualization introduction using matplotlib mcq video
+    - please open data visualization introduction using matplotlib mcq video
+    - i want goto data visualization introduction using matplotlib mcq video
+    - back to data visualization introduction using matplotlib mcq video
+    - move to data visualization introduction using matplotlib mcq video
+    - navigate to data visualization introduction using matplotlib mcq video
+    - take me to data visualization introduction using matplotlib mcq video
+    - lets goto data visualization introduction using matplotlib mcq video
+- intent: visualizationvideos/visualizationseaborn
+  examples: |
+
+    - open the data visualization introduction using seaborn video
+    - i want back data visualization introduction using seaborn video
+    - please open data visualization introduction using seaborn video
+    - i want goto data visualization introduction using seaborn video
+    - back to data visualization introduction using seaborn video
+    - move to data visualization introduction using seaborn video
+    - navigate to data visualization introduction using seaborn video
+    - take me to data visualization introduction using seaborn video
+    - lets goto data visualization introduction using seaborn video
+- intent: visualizationvideos/assignments
+  examples: |
+    - open the  visualization assignments
+    - i want back visualization assignments
+    - please open visualization assignments
+    - i want goto matplotlib assignments
+    - back to matplotlib assignments
+    - move to matplotlib assignments
+    - navigate to seaborn assignments
+    - take me to seaborn assignments
+    - lets goto seaborn assignments
+#deeplearningvideos
+- intent: deeplearningvideos/deeplearningindroductionmcq
+  examples: |
+    - open the indroduction deeplearning mcq videos
+    - i want back indroduction deeplearning mcq videos
+    - please open indroduction deeplearning mcq videos
+    - i want goto indroduction deeplearning mcq videos
+    - back to indroduction deeplearning mcq videos
+    - move to indroduction deeplearning mcq videos
+    - navigate to indroduction deeplearning mcq videos
+    - take me to indroduction deeplearning mcq videos
+    - lets goto indroduction deeplearning mcq videos
+
+- intent: deeplearningvideos/historyofdeeplearning
+  examples: |
+    - open the history of deeplearning video
+    - i want back history of deeplearning video
+    - please open history of deeplearning video
+    - i want goto history of deeplearning video
+    - back to history of deeplearning video
+    - move to history of deeplearning video
+    - navigate to history of deeplearning video
+    - take me to history of deeplearning video
+    - lets goto history of deeplearning video
+
+- intent: deeplearningvideos/introducingtensorflow
+  examples: |
+    - open the introducing tensorflow video
+    - i want back introducing tensorflow video
+    - please open introducing tensorflow video
+    - i want goto introducing tensorflow video
+    - back to introduction tensorflow video
+    - move to introduction tensorflow video
+    - navigate to introduction tensorflow video
+    - take me to introduction tensorflow video
+    - lets goto introducing tensorflow video
+
+- intent: deeplearningvideos/introducingkeras
+  examples: |
+    - open the introducing keras video
+    - i want back introducing keras video
+    - please open introducing keras video
+    - i want goto introducing keras video
+    - back to introduction keras video
+    - move to introduction keras video
+    - navigate to introduction keras video
+    - take me to introduction keras video
+    - lets goto introducing keras video
+
+- intent: deeplearningvideos/perceptron
+  examples: |
+    - open the perceptron in deeplearning video
+    - i want back perceptron video
+    - please open perceptron in deeplearning video
+    - i want goto perceptron in deeplearning video
+    - back to perceptron in deeplearning video
+    - move to perceptron in deeplearning video
+    - navigate to perceptron in deeplearning video
+    - take me to perceptron in deeplearning video
+    - lets goto introducing in deeplearning  video
+
+- intent: deeplearningvideos/multilevelperceptronmcq
+  examples: |
+    - open the multi level perceptron mcq in deeplearning video
+    - i want back multi level perceptron mcq in deeplearning video
+    - please open multi level perceptron mcq in deeplearning video
+    - i want goto multi level perceptron mcq video
+    - back to multi level perceptron mcq video
+    - move to multi level perceptron mcq video
+    - navigate to multi level perceptron mcq video
+    - take me to multi level perceptron mcq video
+    - lets goto multi level perceptron mcq in deeplearning video
+
+- intent: deeplearningvideos/activationfunction
+  examples: |
+    - open the activation function in deeplearning video
+    - i want back activation function in deeplearning video
+    - please open activation function in deeplearning video
+    - i want goto activation function in deeplearning video
+    - back to activation function video
+    - move to activation function video
+    - navigate to activation function video
+    - take me to activation function video
+    - lets goto activation function video
+
+- intent: deeplearningvideos/lossfunction
+  examples: |
+    - open the loss function in deeplearning video
+    - i want back loss function in deeplearning video
+    - please open loss function in deeplearning video
+    - i want goto loss function in deeplearning video
+    - back to loss function video
+    - move to loss function video
+    - navigate to loss function video
+    - take me to loss function video
+    - lets goto loss function video
+
+- intent: deeplearningvideos/optimizers
+  examples: |
+    - open the optimizers in deeplearning video
+    - i want back optimizers in deeplearning video
+    - please open optimizers in deeplearning video
+    - i want goto optimizers in deeplearning video
+    - back to optimizers video
+    - move to optimizers video
+    - navigate to optimizers video
+    - take me to optimizers video
+    - lets goto optimizers video
+
+- intent: deeplearningvideos/evaluationparameters
+  examples: |
+    - open the evaluation parameters in deeplearning video
+    - i want back evaluation parameters in deeplearning video
+    - please open evaluation parameters in deeplearning video
+    - i want goto evaluation parameters in deeplearning video
+    - back to evaluation parameters video
+    - move to evaluation parameters video
+    - navigate to evaluation parameters video
+    - take me to evaluation parameters video
+    - lets goto evaluation parameters video
+
+- intent: deeplearningvideos/artificialneuralnetworksmcq
+  examples: |
+    - open the artificial neural networks mcqs in deeplearning video
+    - i want back artificial neural networks mcqs in deeplearning video
+    - please open artificial neural networks mcqsin deeplearning video
+    - i want goto artificial neural networks mcqs in deeplearning video
+    - back to artificial neural networks mcqs video
+    - move to artificial neural networks mcqs video
+    - navigate artificial neural networks mcqsinvideo
+    - take me to artificial neural networks mcqs video
+    - lets goto artificial neural networks mcqs video
+
+- intent: deeplearningvideos/neuralnetworkplayground
+  examples: |
+    - open the neural network playground in deeplearning video
+    - i want back neural network playground in deeplearning video
+    - please open neural network playground in deeplearning video
+    - i want goto neural network playground in deeplearning video
+    - back to neural network playground video
+    - move to neural network playground video
+    - navigate neural network playground invideo
+    - take me to neural network playground video
+    - lets goto neural network playground video
+
+- intent: deeplearningvideos/assignments
+  examples: |
+    - open the  introduction of deeplearning assignments
+    - i want back introduction of deeplearning assignments
+    - please open  introduction of deeplearning assignments
+    - i want goto  introduction of deeplearning assignments
+    - back to  introduction of deeplearning assignments
+    - move to  introduction of deeplearning assignments
+    - navigate to introduction of deeplearning assignments
+    - take me to introduction of deeplearning assignments
+    - lets goto introduction of deeplearning assignments
+
+#backpropagationvideos
+- intent: backpropagationvideos/introductiontobackpropagation
+  examples: |
+    - open the introduction to backpropagation videos
+    - i want back introduction to backpropagation videos
+    - please open introduction to backpropagation videos
+    - i want goto introduction to backpropagation videos
+    - back to introduction to backpropagation videos
+    - move to backpropagation videos
+    - navigate to backpropagation videos
+    - take me to backpropagation videos
+    - lets goto backpropagation videos
+
+- intent: backpropagationvideos/weightsandbais
+  examples: |
+    - open the weights and bais in backpropagation video
+    - i want back weights and bais in backpropagation video
+    - please open weights and bais in backpropagation video
+    - i want goto weights and bais in backpropagation video
+    - back to weights and bais in backpropagation video
+    - move to weights and bais video
+    - navigate to weights and bais video
+    - take me to weights and bais video
+    - lets goto weights and bais video
+
+- intent: backpropagationvideos/optimization
+  examples: |
+    - open the optimization in backpropagation video
+    - i want back optimization in backpropagation video
+    - please open optimization in backpropagation video
+    - i want goto optimization in backpropagation video
+    - back to optimization in backpropagation video
+    - move to optimization in backpropagation video
+    - navigate to optimization video
+    - take me to optimization video
+    - lets goto optimization in backpropagation video
+
+- intent: backpropagationvideos/mathematicalimputation
+  examples: |
+    - open the mathematical imputation in backpropagation video
+    - i want back mathematical imputation in backpropagation video
+    - please open mathematical imputation in backpropagation video
+    - i want goto mathematical imputation in backpropagation video
+    - back to mathematical imputation in backpropagation video
+    - move to mathematical imputation in backpropagation video
+    - navigate to mathematical imputation video
+    - take me to mathematical imputation video
+    - lets goto mathematical imputation in backpropagation video
+
+- intent: backpropagationvideos/vanishingandexplodinggradient
+  examples: |
+    - open the vanishing and exploding gradient in backpropagation video
+    - i want back vanishing and exploding gradient in backpropagation video
+    - please open vanishing and exploding gradient in backpropagation video
+    - i want goto vanishing and exploding gradient in backpropagation video
+    - back to vanishing and exploding gradient in backpropagation video
+    - move to vanishing and exploding gradient in backpropagation video
+    - navigate to vanishing and exploding gradient video
+    - take me to vanishing and exploding gradient video
+    - lets goto vanishing and exploding gradient in backpropagation video
+
+- intent: backpropagationvideos/trainingforbatchesmcq
+  examples: |
+    - open the training for batches mcq in backpropagation video
+    - i want back training for batches mcq in backpropagation video
+    - please open training for batches mcq in backpropagation video
+    - i want goto training for batches mcq in backpropagation video
+    - back to training for batches in mcq backpropagation video
+    - move to training for batches in mcq backpropagation video
+    - navigate to training for batches mcq video
+    - take me to training for batches mcq video
+    - lets goto training for batches mcq in backpropagation video
+
+- intent: backpropagationvideos/assignments
+  examples: |
+    - open the  backpropagation assignments
+    - i want back backpropagation assignments
+    - please open backpropagation assignments
+    - i want goto backpropagation assignments
+    - back to  backpropagation assignments
+    - move to backpropagation assignments
+    - navigate to backpropagation assignments
+    - take me to backpropagation assignments
+    - lets goto backpropagation assignments
+
+#regulaization
+
+- intent: regulaizationvideos/introductiontoregulaization
+  examples: |
+    - open the introduction to regulaization videos
+    - i want back introduction to regulaization videos
+    - please open introduction to regulaization videos
+    - i want goto introduction to regulaization videos
+    - back to introduction to regulaization videos
+    - move to regulaization videos
+    - navigate to regulaization videos
+    - take me to regulaization videos
+    - lets goto regulaization videos
+
+- intent: regulaizationvideos/l1l2regulaizermcq
+  examples: |
+    - open the l1l2regulaizer in regulaization mcq video
+    - i want back l1l2regulaizer in regulaization mcq video
+    - please open l1l2regulaizer in regulaization mcq video
+    - i want goto l1l2regulaizer in regulaization mcq video
+    - back to l1l2regulaizer in regulaization mcq video
+    - move to l1l2regulaizer mcq video
+    - navigate to l1l2regulaizer mcq video
+    - take me to l1l2regulaizer mcq video
+    - lets goto l1l2regulaizer mcq video
+
+- intent: regulaizationvideos/dropoutmcq
+  examples: |
+    - open the dropout mcq in regulaization video
+    - i want back dropout mcq in regulaization video
+    - please open dropout mcq in regulaization video
+    - i want goto dropout mcq in regulaization video
+    - back to dropout mcq in regulaization video
+    - move to dropout mcq video
+    - navigate to dropout mcq video
+    - take me to dropout mcq video
+    - lets goto dropout mcq video
+
+- intent: regulaizationvideos/batchnormalaizationmcq
+  examples: |
+    - open the batch normalaization mcq in regulaization video
+    - i want back batch normalaization mcq in regulaization video
+    - please open batch normalaization mcq in regulaization video
+    - i want goto batch normalaization mcq in regulaization video
+    - back to batch normalaization mcq in regulaization video
+    - move to batch normalaization mcq video
+    - navigate to batch normalaization mcq video
+    - take me to batch normalaization mcq video
+    - lets goto batch normalaization mcq
+
+    video
+
+- intent: regulaizationvideos/annregulaizationmodel
+  examples: |
+    - open the ann regulaization model in regulaization video
+    - i want back ann regulaization model in regulaization video
+    - please open ann regulaization model in regulaization video
+    - i want goto ann regulaization model in regulaization video
+    - back to ann regulaization model in regulaization video
+    - move to ann regulaization model in regulaization video
+    - navigate to ann regulaization model in regulaization video
+    - take me to ann regulaization model in regulaization video
+    - lets goto ann regulaization model in regulaization video
+
+#iris casestudy
+- intent: iriscasestudyvideos/understandingirismcq
+  examples: |
+    - open the understanding iris mcq in iris case study videos
+    - i want back understanding iris mcq in iris case study videos
+    - please open understanding iris mcq in iris case study videos
+    - i want goto understanding iris mcq in iris case study videos
+    - back to understanding iris mcq in iris case study videos
+    - move to understanding iris mcq in iris case study videos
+    - navigate to understanding iris mcq in iris case study videos
+    - take me to understanding iris mcq in iris case study videos
+    - lets goto understanding iris mcq in iris case study videos
+
+- intent: iriscasestudyvideos/buildingsequentialapimodel
+  examples: |
+    - open the building sequential api model in iris case study videos
+    - i want back building sequential api model in iris case study videos
+    - please open building sequential api model in iris case study videos
+    - i want goto building sequential api model in iris case study videos
+    - back to building sequential api model in iris case study videos
+    - move to building sequential api model in iris case study videos
+    - navigate to building sequential api model in iris case study videos
+    - take me to building sequential api model in iris case study videos
+    - lets goto building sequential api model in iris case study videos
+
+- intent: iriscasestudyvideos/buildingfunctionalapimodel
+  examples: |
+    - open the building functional api model in iris case study videos
+    - i want back building functional api model in iris case study videos
+    - please open building functional api model in iris case study videos
+    - i want goto building functional api model in iris case study videos
+    - back to building functional api model in iris case study videos
+    - move to building functional api model in iris case study videos
+    - navigate to building functional api model in iris case study videos
+    - take me to building functional api model in iris case study videos
+    - lets goto building functional api model in iris case study videos
+
+- intent: iriscasestudyvideos/observations
+  examples: |
+    - open the observations in iris case study videos
+    - i want back observations in iris case study videos
+    - please open observations in iris case study videos
+    - i want goto observations in iris case study videos
+    - back to observations in iris case study videos
+    - move to observations in iris case study videos
+    - navigate to observations in iris case study videos
+    - take me to observations in iris case study videos
+    - lets goto observations in iris case study videos
+
+- intent: iriscasestudyvideos/assignments
+  examples: |
+    - open the  iris case study assignments
+    - i want back iris case study assignments
+    - please open iris case study assignments
+    - i want goto iris case study assignments
+    - back to  iris case study assignments
+    - move to iris case study assignments
+    - navigate to iris case study assignments
+    - take me to iris case study assignments
+    - lets goto iris case study assignments
+
+#mnistcasestudyvideos
+- intent: mnistcasestudyvideos/understandingmnistmcq
+  examples: |
+    - open the understanding mnist mcq in iris case study videos
+    - i want back understanding mnist mcq in iris case study videos
+    - please open understanding mnist mcq in iris case study videos
+    - i want goto understanding mnist mcq in iris case study videos
+    - back to understanding iris mnist in iris case study videos
+    - move to understanding iris mnist in iris case study videos
+    - navigate to understanding mnist mcq in iris case study videos
+    - take me to understanding mnist mcq in iris case study videos
+    - lets goto understanding mnist mcq in iris case study videos
+
+- intent: mnistcasestudyvideos/buildingsequentialapimodel
+  examples: |
+    - open the building sequential api model in mnist case study videos
+    - i want back building sequential api model in mnist case study videos
+    - please open building sequential api model in mnist case study videos
+    - i want goto building sequential api model in mnist case study videos
+    - back to building sequential api model in mnist case study videos
+    - move to building sequential api model in mnist case study videos
+    - navigate to building sequential api model in mnist case study videos
+    - take me to building sequential api model in mnist case study videos
+    - lets goto building sequential api model in mnist case study videos
+
+- intent: mnistcasestudyvideos/buildingfunctionalapimodel
+  examples: |
+    - open the building functional api model in mnist case study videos
+    - i want back building functional api model in mnist case study videos
+    - please open building functional api model in mnist case study videos
+    - i want goto building functional api model in mnist case study videos
+    - back to building functional api model in mnist case study videos
+    - move to building functional api model in mnist case study videos
+    - navigate to building functional api model in mnist case study videos
+    - take me to building functional api model in mnist case study videos
+    - lets goto building functional api model in mnist case study videos
+
+- intent: mnistcasestudyvideos/observations
+  examples: |
+    - open the observations in mnist case study videos
+    - i want back observations in mnist case study videos
+    - please open observations in mnist case study videos
+    - i want goto observations in mnist case study videos
+    - back to observations in mnist case study videos
+    - move to observations in mnist case study videos
+    - navigate to observations in mnist case study videos
+    - take me to observations in mnist case study videos
+    - lets goto observations in mnist case study videos
+
+- intent: mnistcasestudyvideos/assignments
+  examples: |
+    - open the  mnist case study assignments
+    - i want back mnist case study assignments
+    - please open mnist case study assignments
+    - i want goto mnist case study assignments
+    - back to  mnist case study assignments
+    - move to mnist case study assignments
+    - navigate to mnist case study assignments
+    - take me to mnist case study assignments
+    - lets goto mnist case study assignments
+
+#convolutionneuralnetworks
+
+- intent: cnnvideos/indroductiontocnnmcq
+  examples: |
+    - open the introduction to cnn mcq convolution neural networks videos
+    - i want back introduction to cnn mcq convolution neural networks videos
+    - please open introduction to cnn mcq convolution neural networks videos
+    - i want goto introduction to cnn mcq convolution neural networks videos
+    - back to introduction to cnn mcq convolution neural networks videos
+    - move to introduction to cnn mcq convolution neural networks videos
+    - navigate to introduction to mcq cnn convolution neural networks videos
+    - take me to introduction to cnn mcq convolution neural networks videos
+    - lets goto introduction to cnn mcq convolution neural networks videos
+
+- intent: cnnvideos/imagesandvideosmcq
+  examples: |
+    - open the images and video mcq in cnn convolution neural networks videos
+    - i want back images and video mcq in cnn convolution neural networks videos
+    - please open images and video mcq in cnn convolution neural networks videos
+    - i want goto images and video mcq in cnn convolution neural networks videos
+    - back to images and video mcq in cnn convolution neural networks videos
+    - move to images and video mcq in cnn convolution neural networks videos
+    - navigate to images and video mcq in cnn convolution neural networks videos
+    - take me to images and video mcq in cnn convolution neural networks videos
+    - lets goto images and video mcq in cnn convolution neural networks videos
+
+- intent: cnnvideos/convolutionmcq
+  examples: |
+    - open the convolution mcq in cnn convolution neural networks videos
+    - i want back convolution mcq in cnn convolution neural networks videos
+    - please open convolution mcq in cnn convolution neural networks videos
+    - i want goto convolution mcq in cnn convolution neural networks videos
+    - back to convolution mcq in cnn convolution neural networks videos
+    - move to convolution mcq in cnn convolution neural networks videos
+    - navigate to convolution mcq in cnn convolution neural networks videos
+    - take me to convolution in cnn convolution neural networks videos
+    - lets goto convolution mcq in cnn convolution neural networks videos
+
+- intent: cnnvideos/strideandpaddingmcq
+  examples: |
+    - open the stride and padding mcq in cnn convolution neural networks videos
+    - i want back stride and padding mcq in cnn convolution neural networks videos
+    - please open stride and padding mcq in cnn convolution neural networks videos
+    - i want goto stride and padding mcq in cnn convolution neural networks videos
+    - back to stride and padding mcq in cnn convolution neural networks videos
+    - move to stride and padding mcq in cnn convolution neural networks videos
+    - navigate to stride and padding mcq in cnn convolution neural networks videos
+    - take me to stride and padding in cnn convolution neural networks videos
+    - lets goto stride and padding mcq in cnn convolution neural networks videos
+
+- intent: cnnvideos/featuremaps
+  examples: |
+    - open the feature maps in cnn convolution neural networks videos
+    - i want back feature maps in cnn convolution neural networks videos
+    - please open feature maps in cnn convolution neural networks videos
+    - i want goto feature maps in cnn convolution neural networks videos
+    - back to feature maps in cnn convolution neural networks videos
+    - move to feature maps in cnn convolution neural networks videos
+    - navigate to feature maps in cnn convolution neural networks videos
+    - take me to feature maps in cnn convolution neural networks videos
+    - lets goto feature maps in cnn convolution neural networks videos
+
+- intent: cnnvideos/poolingmcq
+  examples: |
+    - open the pooling mcq in cnn convolution neural networks videos
+    - i want back pooling mcq in cnn convolution neural networks videos
+    - please open pooling mcq in cnn convolution neural networks videos
+    - i want goto pooling mcq in cnn convolution neural networks videos
+    - back to pooling mcq in cnn convolution neural networks videos
+    - move to pooling mcq in cnn convolution neural networks videos
+    - navigate to pooling mcq in cnn convolution neural networks videos
+    - take me to pooling mcq in cnn convolution neural networks videos
+    - lets goto pooling mcq in cnn convolution neural networks videos
+
+- intent: cnnvideos/callback
+  examples: |
+    - open the callback in cnn convolution neural networks videos
+    - i want back callback in cnn convolution neural networks videos
+    - please open callback in cnn convolution neural networks videos
+    - i want goto callback in cnn convolution neural networks videos
+    - back to callback in cnn convolution neural networks videos
+    - move to callback in cnn convolution neural networks videos
+    - navigate to callback in cnn convolution neural networks videos
+    - take me to callback in cnn convolution neural networks videos
+    - lets goto callback in cnn convolution neural networks videos
+
+- intent: cnnvideos/dataaugmentationandimagedatagenerator
+  examples: |
+    - open the data augmentation and image data generator in cnn convolution neural networks videos
+    - i want back data augmentation and image data generator in cnn convolution neural networks videos
+    - please open data augmentation and image data generator in cnn convolution neural networks videos
+    - i want goto data augmentation and image data generator in cnn convolution neural networks videos
+    - back to data augmentation and image data generator in cnn convolution neural networks videos
+    - move to data augmentation and image data generator in cnn convolution neural networks videos
+    - navigate to data augmentation and image data generator in cnn convolution neural networks videos
+    - take me to data augmentation and image data generator in cnn convolution neural networks videos
+    - lets goto data augmentation and image data generator in cnn convolution neural networks videos
+
+- intent: cnnvideos/applyingcnnsequentialmodelonmnistdataset
+  examples: |
+    - open the applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - i want back applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - please open applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - i want goto applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - back to applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - move to applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - navigate applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - take me to applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+    - lets goto applying cnn sequential model on mnist dataset in cnn convolution neural networks videos
+
+- intent: cnnvideos/assignments
+  examples: |
+    - open the cnn convolution neural networks assignments
+    - i want back convolution neural networks assignments
+    - please open convolution neural networks assignments
+    - i want goto convolution neural networks assignments
+    - back to  convolution neural networks assignments
+    - move to convolution neural networks assignments
+    - navigate to convolution neural networks assignments
+    - take me to convolution neural networks assignments
+    - lets goto convolution neural networks assignments
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

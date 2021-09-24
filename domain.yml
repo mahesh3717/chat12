@@ -1,0 +1,277 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pythonvideos
+  - beginerpythonvideos
+  - intermediatepythonvideos
+  - numpyvideos
+  - pandasvideos
+  - visualizationvideos
+  - deeplearningvideos
+  - backpropagationvideos
+  - regulaizationvideos
+  - iriscasestudyvideos
+  - mnistcasestudyvideos
+  - cnnvideos
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pythonvideos/introduction:
+  - text: "https://aieducator.com/topic/113?courseId=2"
+  utter_pythonvideos/installing:
+  - text: "https://aieducator.com/topic/116?courseId=2"
+  - text: "https://aieducator.com/topic/117?courseId=2"
+  utter_pythonvideos/comandline:
+  - text: "https://aieducator.com/topic/118?courseId=2"
+  - text: "https://aieducator.com/topic/119?courseId=2"
+  utter_pythonvideos/runningpythoncode:
+  - text: "https://aieducator.com/topic/120?courseId=2"
+  utter_pythonvideos/interactivenotebooksmcq:
+  - text: "https://aieducator.com/topic/121?courseId=2"
+  - text: "https://aieducator.com/topic/122?courseId=2"
+
+  utter_beginerpythonvideos/open:
+  - text: "https://aieducator.com/topic/123?courseId=2"
+  utter_beginerpythonvideos/basicarithmetic:
+  - text: "https://aieducator.com/topic/123?courseId=2"
+  utter_beginerpythonvideos/variable:
+  - text: "https://aieducator.com/topic/124?courseId=2"
+  utter_beginerpythonvideos/formatcodeinpython:
+  - text: "https://aieducator.com/topic/125?courseId=2"
+  utter_beginerpythonvideos/pythondatatypesmcq:
+  - text: "https://aieducator.com/topic/126?courseId=2"
+  utter_beginerpythonvideos/mutableimutable:
+  - text: "https://aieducator.com/topic/127?courseId=2"
+  utter_beginerpythonvideos/numbers:
+  - text: "https://aieducator.com/topic/128?courseId=2"
+  utter_beginerpythonvideos/stringsmcq:
+  - text: "https://aieducator.com/topic/129?courseId=2"
+  utter_beginerpythonvideos/lists:
+  - text: "https://aieducator.com/topic/130?courseId=2"
+  - text: "https://aieducator.com/topic/135?courseId=2"
+  utter_beginerpythonvideos/indexingandslicingmcq:
+  - text: "https://aieducator.com/topic/131?courseId=2"
+  utter_beginerpythonvideos/StringPropertiesandMethods:
+  - text: "https://aieducator.com/topic/132?courseId=2"
+  utter_beginerpythonvideos/userinput:
+  - text: "https://aieducator.com/topic/133?courseId=2"
+  utter_beginerpythonvideos/printformatingmcq:
+  - text: "https://aieducator.com/topic/134?courseId=2"
+  utter_beginerpythonvideos/dictionaries:
+  - text: "https://aieducator.com/topic/136?courseId=2"
+  utter_beginerpythonvideos/tuples:
+  - text: "https://aieducator.com/topic/137?courseId=2"
+  utter_beginerpythonvideos/setsmcq:
+  - text: "https://aieducator.com/topic/138?courseId=2"
+  utter_beginerpythonvideos/booleans:
+  - text: "https://aieducator.com/topic/139?courseId=2"
+  utter_beginerpythonvideos/none:
+  - text: "https://aieducator.com/topic/140?courseId=2"
+  utter_beginerpythonvideos/files:
+  - text: "https://aieducator.com/topic/141?courseId=2"
+  utter_beginerpythonvideos/yourfirstpythonprogrammcq:
+  - text: "https://aieducator.com/topic/141?courseId=2"
+  utter_beginerpythonvideos/assignments:
+  - text: "https://aieducator.com/assignment/18?courseId=2&topicSl_no=200&problem=525&question=5&CourseCategory=tf"
+
+
+
+  utter_intermediatepythonvideos/comparisonoperators:
+  - text: "https://aieducator.com/topic/143?courseId=2"
+  utter_intermediatepythonvideos/comparisonshortcutsmcq:
+  - text: "https://aieducator.com/topic/144?courseId=2"
+  utter_intermediatepythonvideos/multiplecomparisonoperators:
+  - text: "https://aieducator.com/topic/145?courseId=2"
+  utter_intermediatepythonvideos/chainingoperatorstogethermcq:
+  - text: "https://aieducator.com/topic/146?courseId=2"
+  utter_intermediatepythonvideos/introductiontoloops:
+  - text: "https://aieducator.com/topic/147?courseId=2"
+  utter_intermediatepythonvideos/forloopsmcq:
+  - text: "https://aieducator.com/topic/148?courseId=2"
+  utter_intermediatepythonvideos/loopingthroughdictionariesmcq:
+  - text: "https://aieducator.com/topic/149?courseId=2"
+  utter_intermediatepythonvideos/whileloopsmcq:
+  - text: "https://aieducator.com/topic/150?courseId=2"
+  utter_intermediatepythonvideos/breakandcontinuemcq:
+  - text: "https://aieducator.com/topic/151?courseId=2"
+  utter_intermediatepythonvideos/typecastingmcq:
+  - text: "https://aieducator.com/topic/152?courseId=2"
+  utter_intermediatepythonvideos/helpfuloperatorsmcq:
+  - text: "https://aieducator.com/topic/153?courseId=2"
+  utter_intermediatepythonvideos/listcomprehensions:
+  - text: "https://aieducator.com/topic/154?courseId=2"
+  utter_intermediatepythonvideos/dictionarycomprehensionsmcq:
+  - text: "https://aieducator.com/topic/155?courseId=2"
+  utter_intermediatepythonvideos/functions:
+  - text: "https://aieducator.com/topic/156?courseId=2"
+  utter_intermediatepythonvideos/argsandkwargsmcq:
+  - text: "https://aieducator.com/topic/157?courseId=2"
+  utter_intermediatepythonvideos/comments:
+  - text: "https://aieducator.com/topic/158?courseId=2"
+  utter_intermediatepythonvideos/map:
+  - text: "https://aieducator.com/topic/159?courseId=2"
+  utter_intermediatepythonvideos/filter:
+  - text: "https://aieducator.com/topic/160?courseId=2"
+  utter_intermediatepythonvideos/lambdaexpression:
+  - text: "https://aieducator.com/topic/161?courseId=2"
+  utter_intermediatepythonvideos/scopemcq:
+  - text: "https://aieducator.com/topic/162?courseId=2"
+  utter_intermediatepythonvideos/assignments:
+  - text: "https://aieducator.com/assignment/19?courseId=2&topicSl_no=300&problem=575&question=5&CourseCategory=tf"
+
+
+
+  utter_numpyvideos/numpyindroductionmcq:
+  - text: "https://aieducator.com/topic/430?courseId=2 "
+  utter_numpyvideos/creatingnumpyarraysmcq:
+  - text: "https://aieducator.com/topic/431?courseId=2"
+  utter_numpyvideos/slicingarrayinnumpymcq:
+  - text: "https://aieducator.com/topic/432?courseId=2"
+  utter_numpyvideos/operatorsinnumpymcq:
+  - text: "https://aieducator.com/topic/434?courseId=2"
+  utter_numpyvideos/arraymethodsinnumpymcq:
+  - text: "https://aieducator.com/topic/435?courseId=2"
+  utter_numpyvideos/assignments:
+  - text: "https://aieducator.com/assignment/22?courseId=2&topicSl_no=600&problem=997&question=5&CourseCategory=tf"
+
+
+
+  utter_pandasvideos/pandasindroductionmcq:
+  - text: "https://aieducator.com/topic/436?courseId=2"
+  utter_pandasvideos/pandasseriesanddateframes:
+  - text: "https://aieducator.com/topic/437?courseId=2"
+  utter_pandasvideos/indexingandslicingindataframesmcq:
+  - text: "https://aieducator.com/topic/438?courseId=2"
+  utter_pandasvideos/handlingmissingdatamcq:
+  - text: "https://aieducator.com/topic/439?courseId=2"
+  utter_pandasvideos/assignments:
+  - text: "https://aieducator.com/assignment/23?courseId=2&topicSl_no=700&problem=1008&question=5&CourseCategory=tf"
+
+  utter_visualizationvideos/visualizationintroductionmcq:
+  - text: "https://aieducator.com/topic/440?courseId=2"
+  utter_visualizationvideos/visualizationseaborn:
+  - text: "https://aieducator.com/topic/441?courseId=2"
+  utter_visualizationvideos/assignments:
+  - text: "https://aieducator.com/assignment/24?courseId=2&topicSl_no=800&problem=1046&question=1&CourseCategory=tf"
+
+  utter_deeplearningvideos/deeplearningindroductionmcq:
+  - text: "https://aieducator.com/topic/442?courseId=2"
+  utter_deeplearningvideos/historyofdeeplearning:
+  - text: "https://aieducator.com/topic/443?courseId=2"
+  utter_deeplearningvideos/introducingtensorflow:
+  - text: "https://aieducator.com/topic/444?courseId=2"
+  utter_deeplearningvideos/introducingkeras:
+  - text: "https://aieducator.com/topic/445?courseId=2"
+  utter_deeplearningvideos/perceptron:
+  - text: "https://aieducator.com/topic/446?courseId=2"
+  utter_deeplearningvideos/multilevelperceptronmcq:
+  - text: "https://aieducator.com/topic/447?courseId=2"
+  utter_deeplearningvideos/activationfunction:
+  - text: "https://aieducator.com/topic/448?courseId=2"
+  utter_deeplearningvideos/lossfunction:
+  - text: "https://aieducator.com/topic/449?courseId=2"
+  utter_deeplearningvideos/optimizers:
+  - text: "https://aieducator.com/topic/450?courseId=2"
+  utter_deeplearningvideos/evaluationparameters:
+  - text: "https://aieducator.com/topic/451?courseId=2"
+  utter_deeplearningvideos/neuralnetworkplayground:
+  - text: "https://aieducator.com/topic/453?courseId=2"
+  utter_deeplearningvideos/assignments:
+  - text: "https://aieducator.com/assignment/25?courseId=2&topicSl_no=900&problem=1497&question=1&CourseCategory=tf"
+
+  utter_backpropagationvideos/indroductiontobackpropagation:
+  - text: "https://aieducator.com/topic/454?courseId=2"
+  utter_backpropagationvideos/weightsandbais:
+  - text: "https://aieducator.com/topic/455?courseId=2"
+  utter_backpropagationvideos/optimization:
+  - text: "https://aieducator.com/topic/456?courseId=2"
+  utter_backpropagationvideos/mathematicalimputation:
+  - text: "https://aieducator.com/topic/457?courseId=2"
+  utter_backpropagationvideos/vanishingandexplodinggradient:
+  - text: "https://aieducator.com/topic/458?courseId=2"
+  utter_backpropagationvideos/trainingforbatchesmcq:
+  - text: "https://aieducator.com/topic/459?courseId=2"
+  utter_backpropagationvideos/assignments:
+  - text: "https://aieducator.com/assignment/26?courseId=2&topicSl_no=1000&problem=1006&question=1&CourseCategory=tf"
+
+  utter_regulaizationvideos/indroductiontoregulaization:
+  - text: "https://aieducator.com/topic/460?courseId=2"
+  utter_regulaizationvideos/l1l2regulaizer:
+  - text: "https://aieducator.com/topic/461?courseId=2"
+  utter_regulaizationvideos/dropoutmcq:
+  - text: "https://aieducator.com/topic/462?courseId=2"
+  utter_regulaizationvideos/batchnormalaizationmcq:
+  - text: "https://aieducator.com/topic/463?courseId=2"
+  utter_regulaizationvideos/annregulaizationmodel:
+  - text: "https://aieducator.com/topic/464?courseId=2"
+
+  utter_iriscasestudyvideos/understandingirismcq:
+  - text: "https://aieducator.com/topic/465?courseId=2"
+  utter_iriscasestudyvideos/buildingsequentialapimodel:
+  - text: "https://aieducator.com/topic/467?courseId=2"
+  utter_iriscasestudyvideos/buildingfunctionalapimodel:
+  - text: "https://aieducator.com/topic/468?courseId=2"
+  utter_iriscasestudyvideos/observations:
+  - text: "https://aieducator.com/topic/469?courseId=2"
+  utter_iriscasestudyvideos/assignments:
+  - text: "https://aieducator.com/assignment/28?courseId=2&topicSl_no=1200&problem=1284&question=1&CourseCategory=tf"
+
+  utter_mnistcasestudyvideos/understandingmnistmcq:
+  - text: "https://aieducator.com/topic/470?courseId=2"
+  utter_mnistcasestudyvideos/buildingsequentialapimodel:
+  - text: "https://aieducator.com/topic/472?courseId=2"
+  utter_mnistcasestudyvideos/buildingfunctionalapimodel:
+  - text: "https://aieducator.com/topic/473?courseId=2"
+  utter_mnistcasestudyvideos/observations:
+  - text: "https://aieducator.com/topic/474?courseId=2"
+  utter_mnistcasestudyvideos/assignments:
+  - text: "https://aieducator.com/assignment/29?courseId=2&topicSl_no=1300&problem=1352&question=2&CourseCategory=tf"
+
+  utter_cnnvideos/indroductiontocnnmcq:
+  - text: "https://aieducator.com/topic/475?courseId=2"
+  utter_cnnvideos/imagesandvideosmcq:
+  - text: "https://aieducator.com/topic/476?courseId=2"
+  utter_cnnvideos/convolutionmcq:
+  - text: "https://aieducator.com/topic/477?courseId=2"
+  utter_cnnvideos/strideandpaddingmcq:
+  - text: "https://aieducator.com/topic/478?courseId=2"
+  utter_cnnvideos/featuremaps:
+  - text: "https://aieducator.com/topic/479?courseId=2"
+  utter_cnnvideos/poolingmcq:
+  - text: "https://aieducator.com/topic/480?courseId=2"
+  utter_cnnvideos/callback:
+  - text: "https://aieducator.com/topic/481?courseId=2"
+  utter_cnnvideos/dataaugmentationandimagedatagenerator:
+  - text: "https://aieducator.com/topic/482?courseId=2"
+  utter_cnnvideos/applyingcnnsequentialmodelonmnistdataset:
+  - text: "https://aieducator.com/topic/483?courseId=2"
+  utter_cnnvideos/assignments:
+  - text: "https://aieducator.com/assignment/30?courseId=2&topicSl_no=1400&problem=1326&question=5&CourseCategory=tf"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

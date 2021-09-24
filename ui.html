@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>aieducatorS</title>
+    </head>
+    <body>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <div id="wrapper">
+	    <span id="unsupported" class="support hidden">Speech API Not Supported</span>
+	    <h2>Your Message:</h2>
+        <div id="typeOfInput">
+            <span>Results:</span>
+	        <label>
+                <input type=radio name=recognition-type value=final> Final speech</label>
+            <label>
+        	    <input type=radio name=recognition-type value=interim checked> As you speak</label>
+        </div>
+            <textarea id="transcription" readonly>
+            </textarea>
+            <br/>
+            <button id="clear-all" class="button">Clear Text</button>
+
+            <div class="button-wrapper">
+        <div id="speechButton" class="start"></div>
+        </div>
+        <div id="log">Click to start speaking</div>
+        </div>
+        <script>
+            var transcription = document.getElementById('transcription');
+            var log = document.getElementById('log');
+        </script>
+        var start = document.getElementById('speechButton');
+        var clear = document.getElementById('clear-all');
+        var speaking = false;
+
+        </body>
+</html>
